@@ -13,11 +13,6 @@
   font-weight: 300;
 }
 
-.banner {
-  width: 55%;
-  align-self: center;
-  padding: 8px;
-}
 
 @media (max-width: 800px) {
   .content {
