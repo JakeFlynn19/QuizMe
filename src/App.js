@@ -3,6 +3,7 @@ import { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
     </div>
+    <Footer />
     </BrowserRouter>
   );
 }
